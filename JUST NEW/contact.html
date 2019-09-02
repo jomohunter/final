@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="icon" href="res/gomycode-tunisie-informatique-telecoms.JPG.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script
+			  src="https://code.jquery.com/jquery-3.4.1.min.js"
+			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+              crossorigin="anonymous"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body> 
+               
+  
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+                <div class="container">
+                  <a class="navbar-brand" href="index.html">
+                        <img src="res/section2GMCLogo.png" id="y" alt="logo">
+                      </a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                  <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav">
+                                <li class="nav-item">
+                                  <a class="Home nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="Courses nav-link" href="courses.html">courses</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="Contact nav-link" href="contact.html">contact</a>
+                                </li>
+                              </ul>
+                  </div>
+                </div>
+              </nav>
+              
+              <div class="container">
+              </div>
+        
+ 
+    
+        <img src="res/D5FucxVUYAAVJ3I.png"  width="100%" height="80%" id="c"><br>
+          
+ 
+        
+    <center>
+     <!-- Default form contact -->
+<form class="text-center border border-light p-5" id="contactForm" action="#!">
+
+        <p class="h4 mb-4">Contact us</p>
+    
+        <!-- Name -->
+        <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name : Youssef Maghraoui">
+    
+        <!-- Email -->
+        <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail : example@email.com">
+        <!-- Phone number -->
+       <input type="tel" id="defaultContactFormPhone" class="form-control mb-4" placeholder="Phone number : +216 58615958">
+    
+        <!-- Track -->
+        <select class="browser-default custom-select mb-4">
+            <option value="" disabled>Choose option</option>
+            <option value="1" selected>Web</option>
+            <option value="2">Game</option>
+            <option value="3">AI</option>
+        </select>
+    
+        <!-- Message -->
+        <div class="form-group">
+            <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message : I have a question : In your website it's contact without a way to  communicate.BTW send me a copy doesn't work :D"></textarea>
+        </div>
+    
+        <!-- Copy -->
+        <div class="custom-control custom-checkbox mb-4">
+            <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+            <label class="h4 custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
+        </div>
+    
+        <!-- submit button -->
+        <button class="btn btn-info btn-block"  type="submit" onclick="submitForm()" >submit</button>
+    
+    </form>
+    <!-- Default form contact -->
+    </center>
+    
+<script src="https://www.gstatic.com/firebasejs/6.5.0/firebase.js"></script>
+</body>
+<script src="js/main.js"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+
+
+</html>
